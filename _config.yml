@@ -28,6 +28,7 @@ baseurl: "/self" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BrijanyaS78411
 github_username:  brijanya
+repository: brijanya/self
 
 # Build settings
 theme: minima
