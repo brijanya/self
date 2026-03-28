@@ -6,45 +6,21 @@ jekylllink: https://jekyllrb.com/
 # jekyllmediumtutorialp2: https://medium.com/crypticcrazeforcs/a-step-by-step-guide-to-building-your-own-website-using-jekyll-ii-1da6749dcc20
 ---
 
-## Welcome,
+# Welcome,
 
 Primary focus on `programming`, `data analysis` and `finance`.
 
-This website is built using `jekyll` and `GitHub Pages`. If you want to know more about how you can start your own blog using these tools, you can refer to the following resources:
+This website is built using `jekyll` and `GitHub Pages`. For the search functionality, I have used [`pagefind`](https://pagefind.app/) which provides search for static sites. If you want to know more about how you can start your own blog using these tools, you can refer to the following resources:
 1. [GitHub Pages]({{ page.githubpageslink }})
 2. [Jekyll]({{ page.jekylllink }})
 3. [A Step-by-Step Guide to Building Your Own Website Using Jekyll Part - 1]({{ page.jekyllmediumtutorialp1 }}){: data-proofer-ignore }
 4. [A Step-by-Step Guide to Building Your Own Website Using Jekyll Part - 2]({{ page.jekyllmediumtutorialp2 }}){: data-proofer-ignore }
 
-## Programming
 
-**Version Control**
-1. [`git`]({{'/git' | relative_url}})
+<button class="btn btn-translucent-blue me-2 mb-2" onclick="window.location.href='{{ '/programmingTOC' | relative_url }}'">Programming</button>
+<button class="btn btn-translucent-blue me-2 mb-2" onclick="window.location.href='{{ '/bankingTOC' | relative_url }}'">Banking and Finance</button>
 
-**Databases**
-1. [`mongo db`]()
-2. [`postgre sql`]()
 
-**Programming Languages**
-1. [`python`]()
-2. [`typescript`]()
-
-**Frameworks**
-1. [`python textual tui`]()
-2. [`node.js`]()
-3. [`next.js`]()
-4. [`github pages: jekyll`]()
-5. [`better auth`]()
-6. [`react`]()
-
-**UI Tools**
-1. [`tailwind css`]()
-
-**Other Tools and Technologies**
-1. [`vim text editor`]()
-2. [`markdown language`]()
-3. [`zerodha kite python api`]()
-4. [`latex`]()
 
 
 

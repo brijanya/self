@@ -44,3 +44,32 @@ To set the username and email for you git locally:
 git config user.name <user_name>
 git config user.email <user_email>
 ```
+
+To rename a branch locally:
+```bash
+git branch -m <old_branch_name> <new_branch_name>
+```
+The `<old_branch_name>` is not required if you are currently on the branch that you are trying to rename. In such cases you can directly run:
+
+```bash
+git branch -m <new_branch_name>
+```
+The `-m` flag in the commands above is for **move**.
+
+To check the state of you repo at any point run:
+
+```bash
+git status
+```
+
+To start tracking a file (aka stage a file) run:
+
+```bash
+git add <file_name>
+```
+
+To stage all the files in the current directory run:
+
+```bash
+git add .
+```
